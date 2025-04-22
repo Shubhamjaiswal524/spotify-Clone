@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="./pic/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                    <div class="nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./pic/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <P class="box-p1">Create your First Playlist</p>
+                        <p class="box-p2">It's easy, We'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <P class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll Keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icon">
+                    <img src="pic/backward_icon.png">
+                    <img src="pic/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
+            </div>
+            <h2> Recently Played </h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="pic/card1img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/Karan-Aujla.jpeg" class="Card-img">
+                    <p class="Card-title">Making Memories</p>
+                    <p class="Card-info">Karan Aujla, ikky</p>
+                </div>
+                <div class="card">
+                    <img src="pic/Shreya-Ghoshal.jpeg" class="Card-img">
+                    <br>
+                    <p class="Card-info">With A.R.Rahman,Vishal-Shekhar,Atif...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/sahiba.jpeg" class="Card-img">
+                    <p class="Card-title">sahiba</p>
+                    <p class="Card-info">Jasleen Royal,Stebin Ben,Vijay Deverakonda</p>
+                </div>
+            </div>
+
+
+            <h2> Popular albums and singles </h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="pic/raanjhan.jpeg" class="Card-img">
+                    <p class="Card-title">Raanjhan (from "Do Patti")</p>
+                    <p class="Card-info">Sachet-Parampara, Parampara Tandon,...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/sanam.jpeg" class="Card-img">
+                    <p class="Card-title">Sanam Teri Kasam (original Motion..</p>
+                    <p class="Card-info">Himesh Reshammiya,Sameer Anjaan,Subrat...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/yo-yo.jpeg" class="Card-img">
+                    <p class="Card-title">Glory</p>
+                    <br>
+                    <p class="Card-info"> Yo Yo Huney Singh</p>
+                </div>
+                <div class="card">
+                    <img src="pic/Arijit.jpeg" class="Card-img">
+                    <p class="Card-title">Ultimate Love Songs -Arijit Singh</p>
+                    <p class="Card-info">Arijit Singh</p>
+                </div>
+                <div class="card">
+                    <img src="pic/Karan-Aujla.jpeg" class="Card-img">
+                    <p class="Card-title">Making Memories</p>
+                    <p class="Card-info">Karan Aujla, ikky</p>
+                </div>
+                <div class="card">
+                    <img src="pic/Young-goat.jpeg" class="Card-img">
+                    <p class="Card-title">Young G.O.A.T</p>
+                    <p class="Card-info">Cheema Y,Gur Sidhu</p>
+                </div>
+                
+            </div>
+            
+            <h2>featured charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="pic/card5img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/card6img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - India</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/bhojpuri.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Bhojpuri Song</p>
+                    <p class="Card-info">Discover The Top 50 Bhojpuri Songs 2025...</p>
+                </div>
+        </div>
+
+
+            <h2> Trending now near you </h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="pic/card2img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/card3img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/card4img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/card3img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/card4img.jpeg" class="Card-img">
+                    <p class="Card-title">To 50 - Global</p>
+                    <p class="Card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                
+            </div>
+            
+            
+
+            <h2>Popular radio</h2>
+            <div class="radio-container">
+                <div class="radio">
+                    <img src="pic/Alka Yagnik.jpeg" class="Card-img">
+                    <br>
+                    <p class="Card-info">With Abhijeet,Jatin-Lalit,Kumar Sonu an...</p>
+                </div>
+                <div class="card">
+                    <img src="pic/Shreya-Ghoshal.jpeg" class="Card-img">
+                    <br>
+                    <p class="Card-info">With A.R.Rahman,Vishal-Shekhar,Atif...</p>
+                </div>
+                <div class="radio">
+                    <img src="pic/Lata-Mangeshkar.jpeg" class="Card-img">
+            
+                    <p class="Card-info">With Mohammed Rafi, Muskesh, Manna Dey...</p>
+                </div>
+                <div class="radio">
+                    <img src="pic/kk.jpeg" class="Card-img">
+                    <br>
+                    <p class="Card-info">With Armaan Malik, Mustafa Zahid,Prita...</p>
+                </div>
+                <div class="radio">
+                    <img src="pic/Karan-Aujla.jpeg" class="Card-img">
+                    <br>
+                    <p class="Card-info">With Shubh, Sidhu Moose Wala,Ap...</p>
+                </div>
+                <div class="radio">
+                    <img src="pic/Dilijit.jpeg" class="Card-img">
+                    <br>
+                    <p class="Card-info">With Karan-Aujla, Shubh,Sidhu Moose..</p>
+                </div>
+                
+
+
+            
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+
+        <div class="music-player">
+            <div class="alubm">
+                <img src="pic/sahiba.jpeg" class="music-player-icon">
+                <div class="music-player-container">
+                    <p class="music-player-text">Sahiba</p>
+                    <P class="music-player-body">Jasleen Royal, Stebin Ben,Vijay Deverakonda</P>
+                </div>
+                 <i class="fa-solid fa-plus" class="icon"></i>
+                
+                
+                
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="pic/player_icon1.png" class="player-control-icon">
+                    <img src="pic/player_icon2.png" class="player-control-icon">
+                    <img src="pic/player_icon3.png" class="player-control-icon" style="opacity: 1; height:1.5rem;">
+                    <img src="pic/player_icon4.png" class="player-control-icon">
+                    <img src="pic/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">05.30</span>
+                    
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-file-video"></i>
+                <i class="fa-solid fa-microphone-lines fa-rotate-by" style="--fa-rotate-angle: 60deg;"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-mobile-button"></i>
+                <diV>
+                    <i class="fa-solid fa-volume-low"></i>
+                    <input type="range" min="0" max="100" class="progress-bar2" step="1">
+                    <i class="fa-solid fa-pen-to-square fa-rotate-by" style="--fa-rotate-angle: 90deg;"></i>
+                </diV>
+                <i class="fa-solid fa-expand"></i>
+            </div>
+        </div>
+</body>
+</html>
